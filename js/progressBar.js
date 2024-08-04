@@ -1,4 +1,3 @@
-import '/css/progressBar.css';
 
 export function setupProgressBar(localStorageKey, value = 100) {
   const progressBar = document.createElement('input');

@@ -1,4 +1,3 @@
-import '../css/style.css';
 import { setupPhoto } from './photo.js';
 import { setupName } from './name.js';
 import { setupLanguages } from './languages.js';

@@ -1,4 +1,3 @@
-import '/css/downloadButton.css';
 
 export function setupDownloadButton() {
   const downloadButton = document.createElement('button');

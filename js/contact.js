@@ -1,4 +1,3 @@
-import '/css/contact.css';
 import { setupContainer } from './container.js';
 import { setupEditableElement } from './editableElement.js';
 

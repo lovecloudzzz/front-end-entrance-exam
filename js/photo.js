@@ -1,4 +1,3 @@
-import photo from '/profileImg.png';
 
 export function setupPhoto() {
   const div = document.createElement('div');

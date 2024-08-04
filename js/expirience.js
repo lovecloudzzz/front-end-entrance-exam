@@ -1,4 +1,4 @@
-import '/css/experience.css';
+
 import { setupEditableElement } from './editableElement.js';
 import { setupContainer } from './container.js';
 import { setupEditableList } from './editableList.js';

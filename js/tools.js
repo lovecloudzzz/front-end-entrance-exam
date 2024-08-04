@@ -1,4 +1,3 @@
-import '/css/tools.css';
 import { setupEditableElement } from './editableElement.js';
 import { setupContainer } from './container.js';
 import {
