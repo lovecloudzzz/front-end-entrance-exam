@@ -1,3 +1,4 @@
+import '/css/container.css';
 
 export function setupContainer({
   elementType,

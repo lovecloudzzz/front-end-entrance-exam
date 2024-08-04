@@ -1,4 +1,4 @@
-
+import '/css/education.css';
 import { setupEditableElement } from './editableElement.js';
 import { setupContainer } from './container.js';
 import { setupHashtags } from './hashtags.js';

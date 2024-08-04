@@ -1,4 +1,4 @@
-
+import '/css/extra.css';
 import { setupContainer } from './container.js';
 import { setupTags } from './tags.js';
 import { setupContact } from './contact.js';

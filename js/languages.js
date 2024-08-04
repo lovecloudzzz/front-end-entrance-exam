@@ -1,3 +1,4 @@
+import '/css/languages.css';
 import { setupContainer } from './container.js';
 import { setupProgressBar } from './progressBar.js';
 import { setupEditableElement } from './editableElement.js';

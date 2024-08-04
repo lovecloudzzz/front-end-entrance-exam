@@ -1,5 +1,6 @@
 import { setupEditableElement } from './editableElement';
 import { setupContainer } from './container';
+import '/css/hashtags.css';
 import {
   loadExistingItems,
   cleanEmptyItemsFromLocalStorage,

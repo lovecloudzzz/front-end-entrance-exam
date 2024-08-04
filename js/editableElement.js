@@ -1,3 +1,4 @@
+import '/css/editableElement.css';
 
 export function setupEditableElement({
   elementType = 'h1',

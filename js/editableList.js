@@ -1,4 +1,5 @@
-
+import '../css/editableList.css';
+import '../css/container.css';
 import { setupContainer } from './container.js';
 import { setupEditableElement } from './editableElement.js';
 import {
