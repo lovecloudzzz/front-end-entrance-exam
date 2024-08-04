@@ -1,5 +1,4 @@
 import '/css/downloadButton.css';
-import html2pdf from 'html2pdf.js';
 
 export function setupDownloadButton() {
   const downloadButton = document.createElement('button');
