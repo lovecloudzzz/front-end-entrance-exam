@@ -1,0 +1,16 @@
+.contactContainer {
+  flex-direction: column;
+  height: max-content;
+  padding: 12px;
+  justify-content: space-between;
+  gap: 12px;
+  background-color: var(--primary-text-color);
+  h1 {
+    color: var(--highlight-primary-text-color);
+    line-height: 21px;
+  }
+  h4 {
+    color: var(--highlight-tertiary-text-color);
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,14 @@
+.extra {
+  flex-direction: column;
+  gap: 18px;
+  justify-content: flex-start;
+}
+
+.tagsContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+  height: max-content;
+  background: var(--background-color);
+  padding: 12px;
+}

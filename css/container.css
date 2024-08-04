@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 12px;
+  position: relative;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #f1dba0, #faa5d2);
+  transform: scale(0);
+  pointer-events: none;
+  animation: ripple 300ms ease-out forwards;
+}
+
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 80%;
+  }
+  to {
+    transform: scale(50%);
+    opacity: 0;
+  }
+}

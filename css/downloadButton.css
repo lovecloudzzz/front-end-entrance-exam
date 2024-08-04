@@ -1,0 +1,15 @@
+.downloadButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--highlight-primary-text-color);
+  background-color: var(--highlight-background-color);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.downloadButton:hover {
+  background-color: var(--highlight-quaternary-text-color);
+}

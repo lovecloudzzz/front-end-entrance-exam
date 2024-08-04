@@ -1,0 +1,58 @@
+.experienceContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+  background: var(--background-color);
+  padding: 12px;
+  width: 411px;
+}
+
+.jobsContainer {
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.jobsContainer > .jobBox:first-of-type {
+  background: var(--highlight-background-color);
+  color: var(--highlight-primary-text-color);
+
+  .jobInfoBox {
+    h4 {
+      color: var(--highlight-secondary-text-color);
+    }
+  }
+}
+
+.badge {
+  background: var(--badge-background-color);
+  padding: 2px 0 2px 0;
+  color: var(--badge-text-color);
+  border-radius: 59px;
+  border: 0;
+  outline: 0;
+  appearance: none;
+  box-sizing: border-box;
+  min-width: 61px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobHeader > h4:first-of-type {
+  font-weight: 500;
+  line-height: 12px;
+}
+.jobBox {
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  padding: 12px;
+  background: var(--highlight-primary-text-color);
+}
+
+.jobInfoBox {
+  flex-direction: column;
+  justify-content: flex-start;
+}

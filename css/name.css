@@ -1,0 +1,30 @@
+.name {
+  flex-direction: column;
+  padding: 12px;
+  width: 124px;
+  height: 124px;
+  background: var(--background-color);
+  h1 {
+    font-weight: 600;
+  }
+  h3 {
+    color: var(--primary-text-color);
+    line-height: 104%;
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.info h1 {
+  color: var(--primary-text-color);
+  line-height: 104%;
+}
+
+.info h2 {
+  color: var(--secondary-text-color);
+  line-height: 150%;
+}

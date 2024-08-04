@@ -1,0 +1,81 @@
+.editInput {
+  width: max-content;
+  border: 0;
+  outline: 0;
+  height: max-content;
+  resize: none;
+  appearance: none;
+  box-sizing: border-box;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 1px;
+  background-color: transparent;
+}
+
+.defaultAnimation:focus {
+  animation: gradientAnimation 0.7s ease-in-out forwards;
+}
+
+.blackBackgroundAnimation:focus {
+  animation: blackBackgroundAnimation 0.7s ease-in-out forwards;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, rgb(250, 207, 169), rgb(186, 155, 246));
+  }
+  100% {
+    background: none;
+  }
+}
+
+@keyframes blackBackgroundAnimation {
+  0% {
+    background: linear-gradient(45deg, rgb(248, 231, 202), rgb(186, 155, 246));
+  }
+  100% {
+    background: var(--primary-text-color);
+  }
+}
+
+.badgeBackgroundAnimation:focus {
+  animation: badgeBackgroundAnimation 0.7s ease-in-out forwards;
+}
+
+@keyframes badgeBackgroundAnimation {
+  0% {
+    background: linear-gradient(45deg, rgb(248, 231, 202), rgb(186, 155, 246));
+  }
+  100% {
+    background: var(--badge-background-color);
+  }
+}
+
+.whiteBackgroundAnimation:focus {
+  animation: whiteBackgroundAnimation 0.7s ease-in-out forwards;
+}
+
+@keyframes whiteBackgroundAnimation {
+  0% {
+    background: linear-gradient(45deg, rgb(248, 231, 202), rgb(186, 155, 246));
+  }
+  100% {
+    background: var(--highlight-primary-text-color);
+  }
+}
+
+.saveAnimation {
+  animation: saveAnimation 0.7s ease-in-out forwards;
+}
+
+@keyframes saveAnimation {
+  0% {
+    background-color: rgba(0, 255, 0, 0.3);
+  }
+  100% {
+    background-color: transparent;
+  }
+}

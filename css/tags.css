@@ -1,0 +1,18 @@
+.tagList {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+  max-width: 243px;
+}
+
+.tag {
+  padding: 4px 10px 4px 10px;
+  border-radius: 40px;
+  background: var(--highlight-primary-text-color);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 23px;
+  width: max-content;
+}

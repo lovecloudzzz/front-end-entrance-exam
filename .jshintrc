@@ -1,0 +1,15 @@
+{
+  "esversion": 11,
+  "asi": true,
+  "browser": true,
+  "devel": true,
+  "node": true,
+  "strict": false,
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "document": true,
+    "window": true,
+    "console": true
+  }
+}
